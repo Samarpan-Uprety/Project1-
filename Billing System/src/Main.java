@@ -70,7 +70,7 @@ public class Main {
         System.out.println("How much will you pay?");
         double cash = money.nextDouble();
          if (cash < totalDiscount) {
-            System.out.println("Your total amount is Rs " + totalDiscount + ". Insufficient amount.");
+            System.out.println("Your total amount is Rs " + totalDiscount + ". The amount is insufficient");
         } 
         
         if (rupees >= 1000) {
