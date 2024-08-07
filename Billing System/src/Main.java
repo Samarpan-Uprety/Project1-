@@ -109,12 +109,10 @@ public class Main {
 
         if (cash < totalDiscount) {
             System.out.println("Your total amount is Rs " + totalDiscount + ". Insufficient amount.");
-        } else if (cash == totalDiscount) {
+        } else {
             System.out.println("Thank you, visit again!!");
 
             System.out.println("Have a great day ahead!");
-        }else{
-            System.out.println("The amount is way up");
         }
 
         money.close();
