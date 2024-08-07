@@ -15,7 +15,6 @@ public class Main {
         itemNum = money.nextInt();
 
         ArrayList<Double> priceList = new ArrayList<>();
-        System.out.println("Enter the prices of the items you purchased.");
         System.out.println("Type (quit/Quit)if you want to exit early!");
         String wassup = money.nextLine();
         for (int i = 0; i < itemNum; i++) {
