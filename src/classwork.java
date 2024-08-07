@@ -55,28 +55,30 @@ public class classwork {
 //
 //        }
 
-          int  l =35,g;
-            System.out.println("Enter a number");
-            Scanner hanuman = new Scanner(System.in);
-            g = hanuman.nextInt();
-            while(g > 35) {
-                System.out.println("hotter");
-                break;
-            }
+        int l = 35, g;
+        System.out.println("Enter a number");
+        Scanner hanuman = new Scanner(System.in);
+        g = hanuman.nextInt();
+        while (g > 35) {
+            System.out.println("hotter");
+            break;
+        }
 
-            while(g < 35){
-                System.out.println("Colder");
-                break;
-            }
+        while (g < 35) {
+            System.out.println("Colder");
+            break;
+        }
 
-            while(g == 35){
-                System.out.println("The number you've guessed is correct");
-                break;
+        while (g == 35) {
+            System.out.println("The number you've guessed is correct");
+            break;
 //            }
 
 
-
+        }
     }
+}
+
 
 
 
