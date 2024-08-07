@@ -67,6 +67,8 @@ public class Main {
 
         System.out.println("Your total amount is Rs " + totalDiscount);
         int rupees = (int) totalDiscount;
+        System.out.println("How much will you pay?");
+        double cash = money.nextDouble();
         if (rupees >= 1000) {
             int amount = rupees / 1000;
             System.out.println("1000 * " + amount);
@@ -103,9 +105,6 @@ public class Main {
             System.out.println("5 * " + amount);
             rupees = rupees - (5 * amount);
         }
-
-        System.out.println("How much will you pay?");
-        double cash = money.nextDouble();
 
         if (cash < totalDiscount) {
             System.out.println("Your total amount is Rs " + totalDiscount + ". Insufficient amount.");
