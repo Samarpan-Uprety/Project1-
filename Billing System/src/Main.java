@@ -68,6 +68,7 @@ public class Main {
         int rupees = (int) totalDiscount;
         System.out.println("How much will you pay?");
         double cash = money.nextDouble();
+        rupees = cash - totalDiscount;
          if (cash < totalDiscount) {
             System.out.println("Your total amount is Rs " + totalDiscount + ". The amount is insufficient");
         } 
